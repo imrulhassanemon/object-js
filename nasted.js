@@ -9,9 +9,12 @@ const undergraduation = {
             merit: "top"
         }
     }
-
 }
 undergraduation.unique.result.merit = "top top top noutch"
 console.log(undergraduation.unique.result["c-gpa"])
 console.log(undergraduation.unique.result.merit)
+console.log(undergraduation)
+const value =  undergraduation.events[1] = "social science"
+console.log(value)
+delete undergraduation.unique.best
 console.log(undergraduation)
